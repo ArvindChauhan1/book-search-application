@@ -5,8 +5,8 @@ import { useNavigate } from 'react-router-dom';
 const Homepage = () => {
   const navigate = useNavigate();
 
-  const responseGoogle = (response) => {
-    navigate('/search')
+  const responseGoogle = (resp) => {
+    navigate(`/search/${resp.googleId}`)
   }
 
   return (
@@ -15,7 +15,7 @@ const Homepage = () => {
         clientId="760797940951-evrhkgci6qotf9ubncpg3hfi35mcejsr.apps.googleusercontent.com"
         buttonText="Login"
         onSuccess={responseGoogle}
-        onFailure={() => console.log('login again')}
+        onFailure={(e) => console.log('err', e)}
         cookiePolicy={'single_host_origin'}
         isSignedIn={true}
       />
