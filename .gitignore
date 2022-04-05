@@ -65,3 +65,17 @@ node_modules/
 
 # dotenv environment variables file
 .env
+build/asset-manifest.json
+build/index.html
+build/static/css/main.1aeb96ab.css
+build/static/css/main.1aeb96ab.css.map
+build/static/js/main.be4c0408.js
+build/static/js/main.be4c0408.js.LICENSE.txt
+build/static/js/main.be4c0408.js.map
+build/asset-manifest.json
+build/index.html
+build/static/css/main.1aeb96ab.css
+build/static/css/main.1aeb96ab.css.map
+build/static/js/main.be4c0408.js
+build/static/js/main.be4c0408.js.LICENSE.txt
+build/static/js/main.be4c0408.js.map

@@ -61,7 +61,7 @@ const DetailPage = () => {
                                         <>
                                             {bookData.authors.map((a, i) => {
                                                 return (
-                                                    <span>{`${a} ${bookData.authors.length - 1 !== i ? ',' : ''}`}</span>
+                                                    <span key={i}>{`${a} ${bookData.authors.length - 1 !== i ? ',' : ''}`}</span>
                                                 )
                                             })}
                                         </>
